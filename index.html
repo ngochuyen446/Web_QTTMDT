@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="./images/imagesreloom-logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RELOOM — Thời trang secondhand</title>
+    <meta name="description" content="RELOOM — Thương hiệu thời trang secondhand. Quần áo và phụ kiện đã qua sử dụng, được tuyển chọn và kiểm tra kỹ, giá hợp lý, minh bạch tình trạng. Secondhand - First choice.">
+    <meta name="keywords" content="thời trang secondhand, quần áo cũ, RELOOM, đồ vintage, thời trang bền vững">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/remixicon.min.css">
+        <meta name="readdy-project-version" content="5f0d62d2d11161077cbea65b94c43f2a:f08436b8cb9673895c9ea0235cf6171c:de546b121031443e027f385a4ef5050b6bf71605254604da73b9d108250534d534a475ede75353a2ae3bd7642ac15d717eea6f407ed4fb1fe9d9aa4acee4aaec47">
+          <script type="module" src="js/index-BpQyB1GP.js"></script>
+          <link rel="stylesheet" crossorigin="" href="css/index-CdwiFptt.css">
+<script>
+(function () {
+    const favicon = "./images/imagesreloom-logo.ico?v=2";
+
+    function setFavicon() {
+        const icons = document.head.querySelectorAll(
+            'link[rel*="icon"]:not([data-reloom-favicon])'
+        );
+
+        icons.forEach(icon => icon.remove());
+
+        let icon = document.head.querySelector(
+            'link[data-reloom-favicon]'
+        );
+
+        if (!icon) {
+            icon = document.createElement("link");
+            icon.setAttribute("data-reloom-favicon", "true");
+            icon.rel = "icon";
+            icon.type = "image/x-icon";
+            document.head.appendChild(icon);
+        }
+
+        const faviconUrl = new URL(favicon, document.baseURI).href;
+
+        if (icon.href !== faviconUrl) {
+            icon.href = faviconUrl;
+        }
+    }
+
+    setFavicon();
+
+    new MutationObserver(setFavicon).observe(document.head, {
+        childList: true,
+        subtree: true,
+        attributes: true,
+        attributeFilter: ["href", "rel"]
+    });
+})();
+</script>
+        </head>
+
+  <body>
+    <div id="root"></div>
+    <script src="https://readdy.ai/api/public/assistant/widget?projectId=1ebb833f-5481-4e57-beb6-02544eb22496" mode="hybrid" voice-show-transcript="true" theme="light" size="compact" accent-color="#B4522E" button-base-color="#000000" button-accent-color="#FFFFFF" main-label="Trợ lý RELOOM" empty-chat-message="Xin chào! Mình là trợ lý AI của RELOOM. Bạn cần hỗ trợ gì ạ?" defer=""></script>
+  
+
+</body></html>
